@@ -5,10 +5,8 @@ import { useRouter } from 'next/dist/client/router';
 import { rawItems } from '../components/data/metadata'
 
 function Navbar() {
-
+    let router = useRouter();
     function getMenuItems(){
-
-        let router = useRouter();
 
         let current_path = router.pathname;
 

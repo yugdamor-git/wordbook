@@ -9,7 +9,7 @@ const Browse = () => {
             <div className="grid grid-cols-6 gap-1 lg:grid-cols-12 gap-1 md:grid-cols-8" >
                 {alphabet.map((item)=>(
                     
-                    <div className="bg-primary-300 p-2 h-10 w-10 rounded text-center text-md font-bold text-white hover:shadow-lg hover:transition-colors hover:from-primary-300/40 hover:to-primary-400/40 hover:via-primary-300/40 hover:bg-gradient-to-tr">{item.toUpperCase()}</div>
+                    <div key={item} className="bg-primary-300 p-2 h-10 w-10 rounded text-center text-md font-bold text-white hover:shadow-lg hover:transition-colors hover:from-primary-300/40 hover:to-primary-400/40 hover:via-primary-300/40 hover:bg-gradient-to-tr">{item.toUpperCase()}</div>
 
                 ))}
             </div>
