@@ -1,9 +1,9 @@
 import { useRouter } from 'next/dist/client/router'
 import React from 'react'
 
-const index = () => {
+const DefaultWordPage = () => {
     const router = useRouter()
-    
+
     return (
         <div>
             
@@ -11,4 +11,4 @@ const index = () => {
     )
 }
 
-export default index
+export default DefaultWordPage
